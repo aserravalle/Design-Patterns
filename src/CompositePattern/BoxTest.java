@@ -1,6 +1,4 @@
-package src;
-
-
+package CompositePattern;
 
 public class BoxTest {
     public static void main(String[] args) {

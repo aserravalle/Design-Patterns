@@ -1,4 +1,5 @@
-package src;
+package CompositePattern;
+
 
 public interface Component {
     public double getTotalCost();

@@ -1,4 +1,4 @@
-package src;
+package CompositePattern;
 
 public class Product implements Component {
     String productName;
