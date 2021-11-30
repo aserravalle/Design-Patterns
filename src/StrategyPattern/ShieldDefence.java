@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class ShieldDefence implements DefenceMethod {
     String shield;
 

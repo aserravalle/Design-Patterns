@@ -1,3 +1,5 @@
+package TemplateMethod;
+
 public class WeaponTest {
     public static void main(String[] args) {
         Weapon weapon;

@@ -1,3 +1,5 @@
+package StatePattern;
+
 import java.util.ArrayList;
 
 public class DocumentTest {

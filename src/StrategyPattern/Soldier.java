@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class Soldier {
     String name;
     AttackMethod aMethod;

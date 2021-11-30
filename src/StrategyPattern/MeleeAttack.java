@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class MeleeAttack implements AttackMethod {
     String weapon;
 

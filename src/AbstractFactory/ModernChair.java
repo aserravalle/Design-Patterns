@@ -1,4 +1,4 @@
-package src;
+package AbstractFactory;
 
 public class ModernChair implements Chair {
 

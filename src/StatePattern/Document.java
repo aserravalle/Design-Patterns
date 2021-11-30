@@ -1,11 +1,13 @@
-import java.util.ArrayList;
+package StatePattern;
+
+import java.util.List;
 
 public class Document {
     private State currState;
     private String admin;
-    private ArrayList<String> approvedAuthors;
+    private List<String> approvedAuthors;
     
-    public Document(ArrayList<String> authors, String admin) {
+    public Document(List<String> authors, String admin) {
         this.approvedAuthors = authors;
         this.admin = admin;
         this.currState  = new Draft(this);
@@ -39,11 +41,11 @@ public class Document {
         this.admin = admin;
     }
 
-    public ArrayList<String> getApprovedAuthors() {
+    public List<String> getApprovedAuthors() {
         return approvedAuthors;
     }
 
-    public void setApprovedAuthors(ArrayList<String> approvedAuthors) {
+    public void setApprovedAuthors(List<String> approvedAuthors) {
         this.approvedAuthors = approvedAuthors;
     }
 

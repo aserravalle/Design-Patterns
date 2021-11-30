@@ -1,3 +1,5 @@
+package StatePattern;
+
 public class Publish implements State{
     Document doc;
 

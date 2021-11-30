@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class RangeAttack implements AttackMethod {
 
     String weapon;

@@ -1,3 +1,5 @@
+package BuilderPattern;
+
 public class Apartment {
     private int numwalls;
     private int numdoors;

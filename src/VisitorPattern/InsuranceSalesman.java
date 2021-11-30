@@ -1,3 +1,5 @@
+package VisitorPattern;
+
 public class InsuranceSalesman {
     public void sellResidentialInsurance() {
         System.out.println("Selling residential insurance");

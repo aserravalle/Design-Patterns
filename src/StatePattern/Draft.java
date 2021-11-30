@@ -1,3 +1,5 @@
+package StatePattern;
+
 public class Draft implements State {
     Document doc;
 

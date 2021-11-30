@@ -1,3 +1,5 @@
+package AdapterPattern;
+
 public class StockDataProvider implements XMLParser {
     private String fileToParse;
 

@@ -1,3 +1,5 @@
+package AdapterPattern;
+
 public class AnalyticsLibrary implements  JSONParser {
     private String fileToParse;
 

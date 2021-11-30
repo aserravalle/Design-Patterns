@@ -1,3 +1,6 @@
+package DecoratorPattern;
+
+
 public class ColoredShape extends ShapeDecorator{
     Shape shape;
     String color;

@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class SoldierTest {
     public static void main(String[] args) {
         Soldier soldier1 = new Soldier("Samurai Jack", new MeleeAttack("katana"), new ShieldDefence("Kite Shield"));

@@ -1,3 +1,5 @@
+package DecoratorPattern;
+
 public class ShapeWithWidth extends ShapeDecorator {
     Shape shape;
     double width;

@@ -1,5 +1,6 @@
+package Generics;
+
 import java.util.Collection;
-import java.util.List;
 
 public class Algorithms {
     public static <T> int countIf(Collection<T> nums, Condition<T> cond) {

@@ -1,3 +1,5 @@
+package AdapterPattern;
+
 public class XMLtoJSONParser implements JSONParser {
     private String fileToConvert;
 
@@ -14,7 +16,6 @@ public class XMLtoJSONParser implements JSONParser {
 
 	@Override
 	public String getFileToParse() {
-		// TODO Auto-generated method stub
 		return fileToConvert;
 	}
 }

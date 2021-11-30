@@ -1,3 +1,5 @@
+package DecoratorPattern;
+
 public class Square implements Shape {
 
     @Override

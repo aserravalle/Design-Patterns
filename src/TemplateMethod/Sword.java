@@ -1,3 +1,5 @@
+package TemplateMethod;
+
 public class Sword extends Weapon {
 
     @Override

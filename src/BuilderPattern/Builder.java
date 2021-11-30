@@ -1,3 +1,5 @@
+package BuilderPattern;
+
 public interface Builder {
     public void reset();
     public void buildWalls(int numwalls);

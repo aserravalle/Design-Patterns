@@ -1,4 +1,4 @@
-package src;
+package AbstractFactory;
 
 public interface FurnitureFactory {
    public Chair createChair();

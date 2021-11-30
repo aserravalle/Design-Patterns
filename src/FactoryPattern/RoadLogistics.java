@@ -1,4 +1,4 @@
-package src;
+package FactoryPattern;
 
 public class RoadLogistics extends Logistics {
 

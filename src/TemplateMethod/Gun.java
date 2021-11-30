@@ -1,5 +1,8 @@
+package TemplateMethod;
+
 public class Gun extends Weapon {
 
+ 
     @Override
     public void wield() {
         System.out.println("Holding a gun");

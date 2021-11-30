@@ -1,4 +1,4 @@
-package src;
+package AbstractFactory;
 
 public class AbstractFactoryTest {
     public static void main(String[] args) {

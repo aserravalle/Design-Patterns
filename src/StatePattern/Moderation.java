@@ -1,3 +1,5 @@
+package StatePattern;
+
 public class Moderation implements State {
     Document doc;
 

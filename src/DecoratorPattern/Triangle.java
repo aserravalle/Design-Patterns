@@ -1,3 +1,5 @@
+package DecoratorPattern;
+
 public class Triangle implements Shape {
 
     @Override

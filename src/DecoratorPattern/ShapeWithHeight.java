@@ -1,3 +1,5 @@
+package DecoratorPattern;
+
 public class ShapeWithHeight extends ShapeDecorator {
     Shape shape;
     double height;

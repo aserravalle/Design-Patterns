@@ -1,3 +1,5 @@
+package Generics;
+
 public class OddCondition implements Condition<Integer> {
 
     @Override

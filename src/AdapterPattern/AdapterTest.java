@@ -1,3 +1,5 @@
+package AdapterPattern;
+
 public class AdapterTest {
     public static void main(String[] args) {
         StockDataProvider xmlsender = new StockDataProvider("data.xml");

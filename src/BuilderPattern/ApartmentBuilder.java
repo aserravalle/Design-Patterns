@@ -1,3 +1,5 @@
+package BuilderPattern;
+
 public class ApartmentBuilder implements Builder {
     private Apartment apartment;
 
@@ -7,14 +9,12 @@ public class ApartmentBuilder implements Builder {
 
     @Override
     public void reset() {
-        // TODO Auto-generated method stub
         apartment = new Apartment();
 
     }
 
     @Override
     public void buildWalls(int numwalls) {
-        // TODO Auto-generated method stub
         System.out.println("built " + numwalls + " walls");
         apartment.setNumwalls(numwalls);
         
@@ -22,21 +22,18 @@ public class ApartmentBuilder implements Builder {
 
     @Override
     public void buildDoors(int numdoors) {
-        // TODO Auto-generated method stub
         System.out.println("built " + numdoors + " doors");
         apartment.setNumdoors(numdoors);
     }
 
     @Override
     public void buildRooms(int numrooms) {
-        // TODO Auto-generated method stub
         System.out.println("built " + numrooms + " rooms");
         apartment.setNumrooms(numrooms);
     }
 
     @Override
     public void buildPool(boolean hasPool) {
-        // TODO Auto-generated method stub
         apartment.setHasPool(hasPool);
         if(hasPool) {
             System.out.println("built a pool");
@@ -55,14 +52,12 @@ public class ApartmentBuilder implements Builder {
 
     @Override
     public void buildGarage(boolean hasGarage) {
-        // TODO Auto-generated method stub
         //do nothing
 
     }
 
     @Override
     public void buildBasement(boolean hasBasement) {
-        // TODO Auto-generated method stub
         if(hasBasement) {
             System.out.println("basement built");
         }
@@ -71,7 +66,6 @@ public class ApartmentBuilder implements Builder {
 
     @Override
     public void buildStudySpace(boolean hasStudySpace) {
-        // TODO Auto-generated method stub
         apartment.setHasStudySpace(hasStudySpace);
         if(hasStudySpace) {
             System.out.println("study space built");

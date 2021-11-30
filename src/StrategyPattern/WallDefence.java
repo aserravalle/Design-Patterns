@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 public class WallDefence implements DefenceMethod{
     String wall;
 
